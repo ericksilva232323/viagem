@@ -1,0 +1,568 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2024-05-20T13:43:17.243Z",
+    "__export_source": "insomnia.desktop.app:v9.2.0",
+    "resources": [
+        {
+            "_id": "req_5c532b237a5b46e6b6e86cc297f5048d",
+            "parentId": "fld_958c7c544448487790e18f1f77f4ad69",
+            "modified": 1716211102153,
+            "created": 1716210986983,
+            "url": "localhost:3000/pontosTuristicos",
+            "name": "read",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716210986983,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_958c7c544448487790e18f1f77f4ad69",
+            "parentId": "wrk_e399e45e62054c74b03fe0890d1ce96c",
+            "modified": 1716210961242,
+            "created": 1716210961242,
+            "name": "Pontos Turisticos",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1716210961242,
+            "_type": "request_group"
+        },
+        {
+            "_id": "wrk_e399e45e62054c74b03fe0890d1ce96c",
+            "parentId": null,
+            "modified": 1715861971244,
+            "created": 1715861971244,
+            "name": "viagens",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_890f2b8706cf4f31bbe6ff81312189af",
+            "parentId": "fld_958c7c544448487790e18f1f77f4ad69",
+            "modified": 1716211595133,
+            "created": 1716210985182,
+            "url": "localhost:3000/pontosTuristicos",
+            "name": "create",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"id_destinos\": 8, \n\t\"nome\":\"Cristo Redentor\",\n\t\"endereco\":\"Parque Nacional da Tijuca - Alto da Boa Vista, Rio de Janeiro - RJ\",\n\t\"telefone\":\"(21) 4101-0790.\",\n\t\"valor\":\"61 para adultos, 48,80 para crianças \"\n}"
+            },
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716210985182,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_a63a695fe625487da39c1f286c86661c",
+            "parentId": "fld_958c7c544448487790e18f1f77f4ad69",
+            "modified": 1716211113397,
+            "created": 1716210983550,
+            "url": "localhost:3000/pontosTuristicos",
+            "name": "update",
+            "description": "",
+            "method": "PUT",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716210983550,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_025b836b1e4f4babb955ec218d90039d",
+            "parentId": "fld_958c7c544448487790e18f1f77f4ad69",
+            "modified": 1716211860508,
+            "created": 1716210976845,
+            "url": "localhost:3000/pontosTuristicos/1",
+            "name": "delete",
+            "description": "",
+            "method": "DELETE",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716210976845,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_bf9dbf4b6dd747eca8c97a702ef7676e",
+            "parentId": "fld_5f160153444948a2bb7e152b40e05305",
+            "modified": 1716211619999,
+            "created": 1716206177330,
+            "url": "localhost:3000/hoteis",
+            "name": "read",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716206177330,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_5f160153444948a2bb7e152b40e05305",
+            "parentId": "wrk_e399e45e62054c74b03fe0890d1ce96c",
+            "modified": 1716205889204,
+            "created": 1716205889204,
+            "name": "Hoteis",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1716205889204,
+            "_type": "request_group"
+        },
+        {
+            "_id": "req_aca19d6301684d9eb9cf37adb251af14",
+            "parentId": "fld_5f160153444948a2bb7e152b40e05305",
+            "modified": 1716211804951,
+            "created": 1716206175537,
+            "url": "localhost:3000/hoteis",
+            "name": "create",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "\t{\n\t\t\"id_destinos\": 8,\n\t\t\"nome\":\"Hotel Atlântico Business Centro\",\n\t\t\"valor\":\"315.40\",\n\t\t\"avaliacao\": 4,\n\t\t\"email\":\"booking@gmail.com\",\n\t\t\"site\":\"booking.com\"\n\t}"
+            },
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716206175537,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_8a3f58c0e9e042df8cbd59f2d668a1c1",
+            "parentId": "fld_5f160153444948a2bb7e152b40e05305",
+            "modified": 1716210419116,
+            "created": 1716206174052,
+            "url": "localhost:3000/hoteis/1",
+            "name": "update",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"id_destinos\": 7,\n\t\t\"nome\":\"Matiz Hotel\",\n\t\t\"valor\":\"349.99\",\n\t\t\"avaliacao\": 4,\n\t\t\"email\":\"matiz.hotelaria@gmail.com\",\n\t\t\"site\":\"matizjaguariuna.com.br\"\n}"
+            },
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716206174052,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_5076b3dd3f8c4fa786ac7c79c3766c1b",
+            "parentId": "fld_5f160153444948a2bb7e152b40e05305",
+            "modified": 1716210427988,
+            "created": 1716206172680,
+            "url": "localhost:3000/hoteis/1",
+            "name": "delete",
+            "description": "",
+            "method": "DELETE",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716206172680,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_bc3ec1c442aa44348f5115bca23791c8",
+            "parentId": "wrk_e399e45e62054c74b03fe0890d1ce96c",
+            "modified": 1716202801913,
+            "created": 1715947537937,
+            "url": "localhost:3000",
+            "name": "teste",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1715947537937,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_35eac508bb284b1796d0914c220d0ffa",
+            "parentId": "fld_36459a722cec43f2bbd6bdd4efa89449",
+            "modified": 1716205860434,
+            "created": 1716205446873,
+            "url": "localhost:3000/destinos/",
+            "name": "readByName",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716205446873,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_36459a722cec43f2bbd6bdd4efa89449",
+            "parentId": "wrk_e399e45e62054c74b03fe0890d1ce96c",
+            "modified": 1716210974660,
+            "created": 1715868228630,
+            "name": "Destinos",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1715868228630,
+            "_type": "request_group"
+        },
+        {
+            "_id": "req_7521206d5f9a49908dacaf65654223ef",
+            "parentId": "fld_36459a722cec43f2bbd6bdd4efa89449",
+            "modified": 1716204964862,
+            "created": 1716204847129,
+            "url": "localhost:3000/destinos/7",
+            "name": "readById",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716204847129,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_edd7dd977f814797970608424bd41830",
+            "parentId": "fld_36459a722cec43f2bbd6bdd4efa89449",
+            "modified": 1716211521511,
+            "created": 1716204250470,
+            "url": "localhost:3000/destinos/",
+            "name": "update",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": ""
+            },
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716204250470,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_7603c3ffc5644d92af15880aec914f3a",
+            "parentId": "fld_36459a722cec43f2bbd6bdd4efa89449",
+            "modified": 1716203767271,
+            "created": 1716203716485,
+            "url": "localhost:3000/destinos",
+            "name": "read",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716203716485,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_faed5109c1794ca2a3f0e4321b14d48a",
+            "parentId": "fld_36459a722cec43f2bbd6bdd4efa89449",
+            "modified": 1716211547084,
+            "created": 1715947522571,
+            "url": "localhost:3000/destinos",
+            "name": "create",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\t\"nome\": \"rio de janeiro\",\n\t\t\"valor\": \"500.00\"\n}"
+            },
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1715947522571,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_e647b3bf7abd421ea6cf7ff9455457c7",
+            "parentId": "fld_36459a722cec43f2bbd6bdd4efa89449",
+            "modified": 1716211888451,
+            "created": 1715868232686,
+            "url": "localhost:3000/destinos/8",
+            "name": "delete",
+            "description": "",
+            "method": "DELETE",
+            "body": {
+                "mimeType": "application/json",
+                "text": ""
+            },
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1715868232686,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_b942caf1d7d7941867a8331262df8b222b3f29d5",
+            "parentId": "wrk_e399e45e62054c74b03fe0890d1ce96c",
+            "modified": 1715861971250,
+            "created": 1715861971250,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1715861971250,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_b942caf1d7d7941867a8331262df8b222b3f29d5",
+            "parentId": "wrk_e399e45e62054c74b03fe0890d1ce96c",
+            "modified": 1715861971253,
+            "created": 1715861971253,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        }
+    ]
+}
